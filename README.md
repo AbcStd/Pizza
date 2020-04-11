@@ -1,2 +1,0 @@
-# Pizza
- Lendin is simple
