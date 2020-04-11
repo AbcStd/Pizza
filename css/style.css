@@ -1,0 +1,334 @@
+body {
+    background-color: #e9e9e9;
+    margin: 0;
+    
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.wraper {   
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.center {
+    text-align: center;
+    margin-top: 120px;
+}
+
+/* Header 
+=======================*/
+
+.header {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 36px 0px 39px;
+
+}
+.nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.nav>a {
+    text-decoration: none;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    transition: .1s linear;
+}
+.nav a:hover {
+    color: #8d6c6d;
+    font-size: 17px;   
+}
+.nav .right {
+    padding-right: 21px;
+}
+.nav .left-right {
+    padding: 0 21px;
+    border-left: 2px solid #4a4a4a;
+}
+.nav .left {
+    padding-left: 21px;
+    border-left: 2px solid #4a4a4a;
+}
+
+/* Content
+=======================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    background-color: #8d6c6d;
+    background-image: url(../img/bg-two.png);
+    height: 766px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+
+.text {
+    position: relative;
+    align-items: center;
+    left: 0;
+    top: 260px;
+    bottom: 287px;
+
+}
+
+.pizza {
+    position: absolute;
+    right: 0;
+    top: 252px;
+}
+.text h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+.text p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+    max-width: 570px;
+    padding: 30px 0;
+}
+.btn a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #fff;
+    width: 190px;
+    padding: 16px 0;
+    text-align: center;  
+}
+.btn a:hover {
+    font-size: 17px;   
+}
+
+/* Choiсe
+=======================*/
+
+
+.choice {
+    display: block;
+    position: relative;
+    
+}
+.venzil {
+    display: block;
+    background-image: url(../img/venzel.png);
+    width: 102px;
+    height: 28px;
+}
+.h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #2c2c2c;
+    padding: 0 30px;
+}
+.decor-h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.choice p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #949494;
+    margin: 23px 0 43px;
+}
+.choice-nav {
+    margin-bottom: 64px;
+}
+.choice-nav > .nav .right {
+    border-bottom: 4px solid #cd2a30;
+    position: relative;
+}
+.block-num {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.11);
+}
+.block {
+    display: block;
+    padding: 48px 20px;
+    
+}
+.block h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 120px;
+    color: #282828;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+
+.one::after {
+    content: '';
+    display: block;
+    background-image: url(../img/logo1.png);
+    width: 126px;
+    height: 71px;
+    position: absolute;
+    left: 67px;
+    top: calc(50% - 35px);
+}
+.two::after {
+    content: '';
+    display: block;
+    background-image: url(../img/logo2.png);
+    width: 184px;
+    height: 81px;
+    position: absolute;
+    left: 86px;
+    top: calc(50% - 40px);
+}
+.three::after {
+    content: '';
+    display: block;
+    background-image: url(../img/logo3.png);
+    width: 142px;
+    height: 68px;
+    position: absolute;
+    left: 98px;
+    top: calc(50% - 34px);
+}
+.block h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #282828;
+    padding: 50px 0px 22px;
+}
+.block p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #282828;
+}
+.border::before {
+    content: '';
+    display: block;
+    background-image: url(../img/border.png);
+    width: 2px;
+    height: 140px;
+    position: absolute;
+    margin-top: 233px;
+    margin-left: -36px; 
+}
+.retro-btn {
+    height: 261px;
+    text-align: center;
+}
+.retro-btn p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    background-image: url(../img/bg-creat.png);
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 469px;
+    height: 93px;
+    padding: 32px;
+    position: relative;
+    top: 71px;
+    left: 355px 
+}
+footer {
+    background-image: url(../img/bg-footer.png);
+    
+    height: 108px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 44px;
+}
+@media (max-width: 1000px) {
+    .wraper {
+        max-width: 800px;
+    }
+    .pizza {
+        display: none;
+    }
+    .content {
+        height: 500px;
+    }
+    .text {
+        top: 98px;
+    }
+    .h2 {
+        font-size: 35px;
+    }
+    .choice p {
+        font-size: 15px;
+    }
+    .nav .left-right {
+        padding: 0px 8px;
+    }
+    
+    .nav .left {
+        padding-left: 8px;
+    }
+    .nav .right {
+        padding-right: 8px;
+    }
+    .block-num {
+        flex-direction: column;
+    }
+    .block {
+        padding: 0px 66px;
+    }
+    .retro-btn p {
+        font-size: 23px;
+        left: 100px;
+        background-size: 400px;
+    }
+    footer {
+        text-align: left;
+        font-size: 15px;
+    }
+       
+}
+@media (max-width: 750px) {
+
+    .header {
+        flex-direction: column;
+    }
+    .venzil {
+        display: none;
+    }
+    .retro-btn p {
+        font-size: 18px;
+        left: 0px;
+        background-size: 350px;
+}
+
+
